@@ -1,0 +1,32 @@
+/* Set the size of the div element that contains the map */
+#map {
+  height: 355px;
+  /* The height is 400 pixels */
+  width: 60%;
+  /* The width is the width of the web page */
+  margin-left: 21%;
+
+  border-radius: 15px;
+}
+
+body {
+  background-image: url("images/blue.jpg");
+  font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  text-shadow:  2px 2px 3px gray;
+  color: #fff;
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+}
+
+h1:hover{
+  color: green;
+  transition: 1s ease-in-out;
+  
+}
